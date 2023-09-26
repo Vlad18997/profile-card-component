@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(./images/bg-pattern-bottom.svg);
+    background-color: #19a1ae;
+    height: 100%;
+    font-size: 18px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+    margin-top: 150px;
+}
+
+.container{
+  
+  width: 350px;
+  height: auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.5);
+  overflow: hidden;
+}
+
+.pattern-card{
+    height: 140px;
+}
+
+.profile{
+    line-height: 0px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:hsl(227, 10%, 46%) ;
+}
+
+.profile img{
+    border-radius: 50% ;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    margin-top: -54px;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+    margin-top: 5px;
+    color: #2e3349;
+    
+}
+
+span{
+    color:#2e3349 ;
+    font-weight: 400;
+    margin: 0px;
+    margin-left: 5px;
+    color: #2e3349;
+}
+
+h2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.social-numbers{
+    display: flex;
+    justify-content: space-between;
+    width: 249px;
+    margin: 0px auto;
+}
+
+.followers, .likes, .photo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+strong{
+    font-weight: 700;
+    line-height: normal;
+    color:#2e3349 ;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+small{
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+    margin-bottom: 28px;
+    color: #2e3349;
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 375px){
+    body{
+        height: auto;
+    }
+
+    .container{
+        width: 326px;
+        margin-top: 20px;
+    }
+}
